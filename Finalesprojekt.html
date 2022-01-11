@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html  lang="eng">
+    <head>
+        <meta  charset="UTF-8">
+        <meta  http-equiv="X-UA-Compatible"  content="IE=edge">
+        <meta  name="viewport"  content="width=device-width,initial-Scale=1.0">
+        <title>Finalesprojekt</title>
+        <style>
+            button{
+                background-color: palegreen;
+                border: darkgreen;
+                border-radius: 12px;
+                padding: 10px;
+            }
+            button:hover{
+                background-color: darkred;
+                color: black;
+                width: 150px;
+                text-align: center;
+                cursor: pointer;
+            }
+            .flex{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .flex-item-1{
+                flex: 1;
+                background-color: green;
+            }
+            .flex-item-2{
+                flex: 2;
+                background-color: greenyellow;
+            }
+            .flex div{
+                padding: 60px;
+                margin: 10px;
+                text-align: center;
+            }
+            @media (max-width:576px){
+                .flex{
+                    flex-direction: column;
+                    font-size: 24px;
+                }
+                .flex-item-1, .flex-item-2, .flex-item-3{
+                    width:100%;
+                    background-color: seagreen;
+                }
+                img{
+                    width:100%
+                }
+                .reverse-flex{
+                    flex-direction: column-reverse;
+                }    
+            }
+                ul{
+                    list-style-type: none;
+                    padding-left: 0;
+                    display: inline-block;
+                    margin: 0 10px;
+                    margin: 30px auto;
+                }
+                li{
+                    display: inline-block;
+                    margin: 0  10px;
+                }
+                a{
+                    text-decoration: none;
+                    color: black;
+                    background-color: blueviolet;
+                    padding: 10px;
+                }
+                a hover{
+                    background-color: red;
+                }
+        </style>
+    </head>
+    <body>
+        <button>
+            Über uns
+        </button>
+        <div class="flex">
+            <div class="flex-item-1">
+                <div class="flex-item-1">
+                    <img scr="https://www.bing.com/images/search?q=Restaurant%20Foto&FORM=IQFRBA&id=03C49A1EDB8913DBEEB96EF15FDF3359FD7870BE">
+                </div>
+            </div>    
+            <div class="flex-item-2">Restaurant Name</div>
+        </div>
+        <div class="flex">
+            <div class="flex-item-1">Ein Paragraph</div>
+        </div>
+        <div class="flex">
+        <div class="flex-item-1">
+            <img scr="https://www.bing.com/images/search?q=Essen%20Foto&FORM=IQFRBA&id=2554F74F174A04583FD6897A93C15B2E43E2FC5A">
+        </div>
+        <div class="flex-item-2">
+            <img src="https://www.bing.com/images/search?q=Essen%20Foto&FORM=IQFRBA&id=BC79B4824CC38E08CE90F92F76663CEE3E315226">
+        </div>
+        <div class="flex-item-2">
+            <img src="https://www.bing.com/images/search?q=Essen%20Foto&FORM=IQFRBA&id=C29DA13A6C7A6BDFFEB9958DECB351D8B0998938">
+        </div>
+        </div>
+        <button>
+            <ul>
+                <li>
+                    <a herf="https//gooole.com">Speisekarte</a>
+                </li>  
+                <li>
+                    <a herf="hppts//google.com">Bestellung</a>
+                </li>  
+                <li>
+                    <a herf="https//google.com">Reservierung</a>
+                </li>
+            </ul>
+        </button>   
+    </body>
+</html>    
